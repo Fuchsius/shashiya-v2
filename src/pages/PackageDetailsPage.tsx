@@ -135,20 +135,20 @@ const PackageDetailsPage: React.FC = () => {
             {/* Trust Badges */}
             <div className="grid grid-cols-3 gap-4">
               <div className="text-center">
-                <div className="bg-gray-800 rounded-lg p-4">
-                  <div className="text-2xl mb-2">🔒</div>
+                <div className="bg-gray-800 rounded-lg p-4 flex flex-col items-center">
+                  <Shield className="text-yellow-400 h-8 w-8 mb-2" />
                   <div className="text-sm text-gray-400">100% Safe</div>
                 </div>
               </div>
               <div className="text-center">
-                <div className="bg-gray-800 rounded-lg p-4">
-                  <div className="text-2xl mb-2">⚡</div>
+                <div className="bg-gray-800 rounded-lg p-4 flex flex-col items-center">
+                  <Clock className="text-yellow-400 h-8 w-8 mb-2" />
                   <div className="text-sm text-gray-400">Fast Start</div>
                 </div>
               </div>
               <div className="text-center">
-                <div className="bg-gray-800 rounded-lg p-4">
-                  <div className="text-2xl mb-2">💎</div>
+                <div className="bg-gray-800 rounded-lg p-4 flex flex-col items-center">
+                  <Star className="text-yellow-400 h-8 w-8 mb-2" />
                   <div className="text-sm text-gray-400">High Quality</div>
                 </div>
               </div>
